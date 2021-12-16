@@ -1,0 +1,43 @@
+:root {
+  --clr-white: #fff;
+  --clr-text: #4e5150;
+  --clr-gray-1: #a9a9a9;
+  --clr-gray-2: #e5e5e5;
+  --clr-gray-3: #bdbdbd;
+  --clr-footer: #b9bdcf;
+  --clr-primary: #ff6d5b;
+
+  --family-montserrat: Montserrat;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100vh;
+  font-family: var(--family-montserrat);
+  color: var(--clr-text);
+}
+
+body {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: flex;
+  user-select: none;
+  -webkit-user-drag: none;
+}
